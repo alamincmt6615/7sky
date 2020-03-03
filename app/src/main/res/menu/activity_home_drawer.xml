@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Personal Post" />
+        <item
+            android:id="@+id/nav_public_post"
+            android:icon="@drawable/ic_post"
+            android:title="Public Post" />
+
+        <item
+            android:id="@+id/nav_health_carePost"
+            android:icon="@drawable/ic_health"
+            android:title="Health Post" />
+
+        <item
+            android:id="@+id/nav_friend"
+            android:icon="@drawable/ic_friend"
+            android:title="Friend" />
+        <item
+            android:id="@+id/nav_friend_request"
+            android:icon="@drawable/ic_request"
+            android:title="Friend Request" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_all_users"-->
+<!--            android:icon="@drawable/ic_search"-->
+<!--            android:title="Search Friend" />-->
+
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_message_white_24dp"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_Chat_with_admin"
+            android:icon="@drawable/vshc"
+            android:title="Doctor Messages" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_free_recharge"
+            android:icon="@drawable/ic_recharge"
+            android:title="Mobile Recharge" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_about"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
