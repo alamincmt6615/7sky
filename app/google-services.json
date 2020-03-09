@@ -8,10 +8,46 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:736917943747:android:1ac9e22c0cb19361cef976",
+        "mobilesdk_app_id": "1:736917943747:android:5d16e10fdd772b4ecef976",
         "android_client_info": {
           "package_name": "com.alamin.healthcare.chatapp"
-
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736917943747-76hmr97d454gp4jhibv8lubbnrnsj5tq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alamin.healthcare.chatapp",
+            "certificate_hash": "c511167a5021d2c6527eb075dbedc83b52d4e261"
+          }
+        },
+        {
+          "client_id": "736917943747-ak9fdpj7b7bftklu0o6ekrhc07eqai9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTH0ACD--boNKh5HZmkxsEXU6Kh9AgUuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736917943747-ak9fdpj7b7bftklu0o6ekrhc07eqai9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736917943747:android:1ac9e22c0cb19361cef976",
+        "android_client_info": {
+          "package_name": "com.github.h01d.chatapp"
         }
       },
       "oauth_client": [
@@ -19,7 +55,7 @@
           "client_id": "736917943747-ufvcijudr1fc6odi133lbfetaginkj1b.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.alamin.healthcare.chatapp",
+            "package_name": "com.github.h01d.chatapp",
             "certificate_hash": "c511167a5021d2c6527eb075dbedc83b52d4e261"
           }
         },
